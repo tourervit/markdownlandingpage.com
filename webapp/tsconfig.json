@@ -1,0 +1,29 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+		"module": "commonjs",
+    "lib": ["dom", "es2017"],
+    // "allowJs": true,
+    // "checkJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  }
+}
+
+// {
+// 	"compilerOptions": {
+//     "outDir": "./build",
+//     "target": "es6",
+// 		"module": "commonjs",
+// 		"sourceMap": true,
+//     "jsx": "react",
+//     "noImplicitAny": true,
+// 		"allowSyntheticDefaultImports": true,
+// 		"esModuleInterop" : true
+// 	}
+// }
